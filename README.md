@@ -157,7 +157,7 @@ Handles both payment success and failed notifications. The `paymentStatus` field
 
 **Response:**
 ```
-200 OK - Payment notification processed and saved successfully
+200 OK - Payment successful!
 ```
 
 **Error Responses:**
@@ -289,4 +289,4 @@ All errors are logged and appropriate HTTP status codes are returned.
 
 ## License
 
-This project is part of the Homeware payment system.
+This project is part of the Lloyds Banking Group.

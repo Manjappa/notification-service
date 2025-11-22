@@ -2,6 +2,7 @@ package com.homeware.notificationservice.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -18,6 +19,7 @@ public class PaymentDetails {
     private String transactionId;
     
     @NotBlank(message = "Merchant email is required")
+    @jakarta.validation.constraints.Email(message = "Invalid email address")
     private String merchantEmail;
     
     @NotBlank(message = "Merchant name is required")

@@ -74,7 +74,7 @@ public class EmailNotificationService {
         
         body.append("\nThank you for using our payment service.\n\n");
         body.append("Best regards,\n");
-        body.append("Homeware Payment System");
+        body.append("Lloyds Banking Group");
         
         return body.toString();
     }
@@ -117,7 +117,7 @@ public class EmailNotificationService {
         
         body.append("\nPlease review the transaction and contact support if needed.\n\n");
         body.append("Best regards,\n");
-        body.append("Homeware Payment System");
+        body.append("Lloyds Banking Group");
         
         return body.toString();
     }

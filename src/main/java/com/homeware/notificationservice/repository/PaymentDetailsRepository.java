@@ -12,6 +12,8 @@ public interface PaymentDetailsRepository extends JpaRepository<PaymentDetails, 
     
     Optional<PaymentDetails> findByTransactionId(String transactionId);
     
+    Optional<PaymentDetails> findByTransactionIdAndPaymentStatus(String transactionId, String paymentStatus);
+    
     List<PaymentDetails> findByMerchantEmail(String merchantEmail);
     
     List<PaymentDetails> findByPaymentStatus(String paymentStatus);
